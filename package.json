@@ -1,0 +1,38 @@
+{
+  "name": "1broker",
+  "version": "0.1.0",
+  "description": "NodeJS wrapper for the 1broker.com API",
+  "keywords": [
+    "1broker",
+    "api",
+    "btc",
+    "bitcoin",
+    "trading",
+    "forex"
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boxxa/1broker-api"
+  },
+  "main": "1broker.js",
+  "author": "boxxa (https://github.com/boxxa)",
+  "contributors": [
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.27.0",
+    "requestretry": "^1.2.2"
+  },
+   "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bugs": {
+    "url": "https://github.com/boxxa/1broker-api/issues",
+    "email": "hello@nonstopdev.com"
+  },
+  "readmeFilename": "README.md"
+}
