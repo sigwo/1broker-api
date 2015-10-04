@@ -31,7 +31,7 @@ function oneBroker(api_key) {
   /* Orders */
 
   function openOrder(callback) {
-    var path = '/' + config.version + '/order/list_open.php''
+    var path = '/' + config.version + '/order/list_open.php';
     var params = {};
     return apiMethod(path, params, callback);
   }
@@ -121,6 +121,7 @@ function oneBroker(api_key) {
 
   self.accountInfo = accountInfo;
   self.accountAddress = accountAddress;
+  self.openOrder = openOrder;
   self.positionList = positionList;
   self.positionEdit = positionEdit;
   self.marketList = marketList;
