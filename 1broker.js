@@ -30,7 +30,11 @@ function oneBroker(api_key) {
   }
   /* Orders */
 
-  // Coming soon //
+  function openOrder(callback) {
+    var path = '/' + config.version + '/order/list_open.php''
+    var params = {};
+    return apiMethod(path, params, callback);
+  }
 
   /* Position */
   function positionList(callback) {
